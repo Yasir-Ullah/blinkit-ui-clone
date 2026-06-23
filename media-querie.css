@@ -1,0 +1,76 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .headerLeft {
+    justify-content: center;
+  }
+
+  .logo {
+    padding: 10px;
+  }
+
+  .headerAddres {
+    padding: 10px;
+  }
+
+  .headerAddres p {
+    font-size: 12px;
+  }
+
+  .headerAddres h3 {
+    font-size: 15px;
+  }
+
+  .searchBox button {
+    padding: 10px;
+  }
+
+  .headerBtn {
+    position: fixed;
+    background-color: white;
+    justify-content: center;
+    margin-right: 0px;
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .bannerSection {
+    display: none;
+  }
+
+  .orderBanner {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .categeritem {
+    flex-basis: 25%;
+  }
+
+  .productSection {
+    padding: 0px 10px;
+  }
+
+  .productitem {
+    flex-basis: 49%;
+  }
+
+ 
+
+  .use {
+    flex-direction: column;
+  }
+
+
+  .text {
+    padding: 0px 20px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+}
