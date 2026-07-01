@@ -1,0 +1,171 @@
+/* Tablet Devices (768px - 1024px) */
+
+@media (max-width: 1024px) {
+
+  header {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .searchBox {
+    order: 3;
+    width: 100%;
+  }
+
+  .headerBtn {
+    gap: 15px;
+  }
+
+  .categeritem {
+    flex-basis: 20%;
+  }
+
+  .productitem {
+    flex-basis: 31%;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .footermid {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* =========================
+   Mobile Devices (max-width: 767px)
+========================= */
+@media (max-width: 767px) {
+
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .headerLeft {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    border-right: none;
+    padding: 10px;
+  }
+
+  .headerAddres {
+    padding: 10px;
+    text-align: center;
+  }
+  .dropdown{
+    display: none;
+  }
+
+  .searchBox {
+    width: 100%;
+  }
+
+  .headerBtn {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .headerBtn button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .orderBanner {
+    flex-direction: column;
+  }
+
+  .banneritem {
+    flex-basis: 100%;
+    margin: 5px 0;
+  }
+
+  .categeritem {
+    flex-basis: 25%;
+  }
+
+  .productRow {
+    gap: 10px;
+  }
+
+  .productitem {
+    flex-basis: 48%;
+  }
+
+  .headingRow h2 {
+    font-size: 18px;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+  }
+
+  .usefullLinks,
+  .usefullLinks1 {
+    grid-template-columns: 1fr;
+  }
+
+  .combine {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footermid {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .appicon {
+    flex-direction: column;
+  }
+
+  .social-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .text {
+    padding: 15px;
+    text-align: justify;
+  }
+}
+
+/* =========================
+   Small Mobile Devices
+========================= */
+@media (max-width: 480px) {
+ .dropdown{
+    display: none;
+  }
+  .categeritem {
+    flex-basis: 33.33%;
+  }
+  
+
+  .productitem {
+    flex-basis: 100%;
+  }
+
+  .headerBtn {
+    flex-direction: column;
+  }
+
+  .headerBtn button {
+    width: 100%;
+  }
+
+  .productContent h3 {
+    font-size: 14px;
+  }
+}
